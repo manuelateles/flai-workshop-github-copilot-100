@@ -172,6 +172,29 @@ footer {
   border-radius: 4px;
   font-size: 0.9em;
   color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-email {
+  flex: 1;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 0 5px;
+  transition: transform 0.2s;
+  opacity: 0.6;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+  opacity: 1;
+  background: none;
 }
 
 .participants-section em {
